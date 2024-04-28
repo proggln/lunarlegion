@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Legion</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background: linear-gradient(to right, #191970, #800080); /* Градиент от темно-синего к темно-фиолетовому */
+            color: #fff; /* Цвет текста */
+            padding: 10px; /* Уменьшаем внутренний отступ */
+            text-align: center; /* Выравнивание по центру */
+        }
+
+        .logo img {
+            width: 100px; /* Уменьшаем размер логотипа */
+            height: auto; /* Автоматическое определение высоты */
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav a {
+            color: #fff; /* Цвет текста */
+            text-decoration: none; /* Убираем подчеркивание */
+            margin: 0 5px; /* Уменьшаем внешний отступ между кнопками */
+            padding: 5px 10px; /* Уменьшаем внутренние отступы кнопок */
+            border: 2px solid transparent; /* Прозрачная граница */
+            border-radius: 5px; /* Закругленные углы */
+            transition: all 0.3s ease; /* Плавное изменение при наведении */
+        }
+
+        .nav a.active,
+        .nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Немного прозрачного белого цвета при наведении */
+            border-color: #fff; /* Изменение цвета границы при наведении */
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">
+        <img src="photo/log.png" alt="Logo" style="width: 80px; height: auto;">
+    </div>
+
+
+
+
+    <div class="nav">
+    <a href="index.html">About</a>
+    <a href="team.html">Team</a>
+    <a href="match.html">Matches</a>
+    <a href="cont.html">Contact</a>
+</div>
+
+<!-- Ваш CSS код -->
+
+<style>
+    .nav a.active,
+    .nav a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: #fff;
+    }
+</style>
+
+<!-- JavaScript код -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Получаем текущий URL страницы
+        var currentPage = window.location.href;
+
+        // Получаем все ссылки в навигации
+        var navLinks = document.querySelectorAll('.nav a');
+
+        // Проходимся по каждой ссылке
+        navLinks.forEach(function(link) {
+            // Если текущий URL страницы содержит атрибут href ссылки, то добавляем ей класс active
+            if (currentPage.includes(link.getAttribute('href'))) {
+                link.classList.add('active');
+            }
+        });
+    });
+</script>
+
+
+</div>
+
+<div class="containerz" style="width: 1568px; height: 460px;">
+    <div class="header2">
+        <b>Counter Strike 2</b>
+    </div>
+     <!-- Добавлен атрибут align -->
+      <div class="flex-container" style="justify-content: center;">
+
+
+
+        <div class="containerz adjustable" style="width: 250px; height: 330px; text-align: center; position: relative;" onclick="openSkeb()">
+    <img src="photo/cs2.png" alt="Logo" style="width: 80px; height: auto;">
+    <h1>Skeboiy</h1>
+    <p>Rifler</p>
+    <div class="half-background"></div> <!-- Добавляем дополнительный блок для создания половинного фона -->
+</div>
+
+<script>
+    function openSkeb() {
+        window.location.href = 'skeb.html'; // Открывает skeb.html при клике на окошко
+    }
+</script>
+
+<style>
+    .half-background {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Градиентный фон */
+        z-index: -1; /* Помещаем фон под контент */
+    }
+</style>
+
+<div class="containerz adjustable" style="width: 250px; height: 330px; text-align: center; position: relative;" onclick="openDang()">
+    <img src="photo/cs2.png" alt="Logo" style="width: 80px; height: auto;">
+    <h1>Dang3g</h1>
+    <p>Entry Fragger</p>
+    <div class="half-background"></div> <!-- Добавляем дополнительный блок для создания половинного фона -->
+</div>
+
+<script>
+    function openDang() {
+        window.location.href = 'dang.html'; // Открывает dang.html при клике на окошко
+    }
+</script>
+
+<style>
+    .half-background {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Градиентный фон */
+        z-index: -1; /* Помещаем фон под контент */
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="containerz adjustable" style="width: 250px; height: 330px; text-align: center; position: relative;" onclick="openKlaf()">
+<img src="photo/cs2.png" alt="Logo" style="width: 80px; height: auto;">
+<h1>Klafuxx</h1>
+<p>In-game leader</p>
+<div class="half-background"></div> <!-- Добавляем дополнительный блок для создания половинного фона -->
+</div>
+
+<script>
+function openKlaf() {
+window.location.href = 'klaf.html'; // Открывает skeb.html при клике на окошко
+}
+</script>
+
+<style>
+.half-background {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 50%;
+background-color: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Градиентный фон */
+z-index: -1; /* Помещаем фон под контент */
+}
+</style>
+
+
+<div class="containerz adjustable" style="width: 250px; height: 330px; text-align: center; position: relative;" onclick="openNyd()">
+<img src="photo/cs2.png" alt="Logo" style="width: 80px; height: auto;">
+<h1>Nyd1x</h1>
+<p>Support</p>
+<div class="half-background"></div> <!-- Добавляем дополнительный блок для создания половинного фона -->
+</div>
+
+<script>
+function openNyd() {
+window.location.href = 'nyd.html'; // Открывает skeb.html при клике на окошко
+}
+</script>
+
+<style>
+.half-background {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 50%;
+background-color: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Градиентный фон */
+z-index: -1; /* Помещаем фон под контент */
+}
+</style>
+
+<style>
+  .half-background {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      background-color: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Градиентный фон */
+      z-index: -1; /* Помещаем фон под контент */
+  }
+</style>
+
+
+
+<div class="containerz adjustable" style="width: 250px; height: 330px; text-align: center; position: relative;" onclick="openKlafuxx()">
+    <img src="photo/cs2.png" alt="Logo" style="width: 80px; height: auto;">
+    <h1>Uhirov</h1>
+    <p>AWPer</p>
+    <div class="half-background"></div>
+</div>
+
+<script>
+    function openKlafuxx() {
+        window.location.href = 'bang.html';
+    }
+</script>
+
+<style>
+    .half-background {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Градиентный фон */
+        z-index: -1; /* Помещаем фон под контент */
+    }
+</style>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="containerz" style="width: 1568px; height: 460px; margin-top: 50px; background-color: #f5f2f2;">
+            <div class="header2">
+                <b>Brawl Stars</b>
+            </div>
+             <!-- Добавлен атрибут align -->
+              <div class="flex-container" style="justify-content: center;">
+                <div class="flex-container" style="display: flex; justify-content: center;">
+
+
+                  <div class="containerz adjustable" style="width: 250px; height: 330px; text-align: center; position: relative;" onclick="openLaur()">
+                  <img src="photo/bs.png" alt="Logo" style="width: 80px; height: auto;">
+                  <h1>Laurén</h1>
+                  <p></p>
+                  <div class="half-background"></div> <!-- Добавляем дополнительный блок для создания половинного фона -->
+                  </div>
+
+                  <script>
+                  function openLaur() {
+                  window.location.href = 'laur.html'; // Открывает skeb.html при клике на окошко
+                  }
+                  </script>
+
+                  <style>
+                  .half-background {
+                  position: absolute;
+                  bottom: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 50%;
+                  background-color: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Градиентный фон */
+                  z-index: -1; /* Помещаем фон под контент */
+                  }
+                  </style>
+
+
+
+                  <div class="flex-container" style="justify-content: center;">
+                    <div class="flex-container" style="display: flex; justify-content: center;">
+
+
+                      <div class="containerz adjustable" style="width: 250px; height: 330px; text-align: center; position: relative;" onclick="openPake()">
+                          <img src="photo/bs.png" alt="Logo" style="width: 80px; height: auto;">
+                          <h1>Pake</h1>
+                          <p></p>
+                          <div class="half-background"></div> <!-- Добавляем дополнительный блок для создания половинного фона -->
+                      </div>
+
+                      <script>
+                          function openPake() {
+                              window.location.href = 'pake.html'; // Открывает dang.html при клике на окошко
+                          }
+                      </script>
+
+                      <style>
+                          .half-background {
+                              position: absolute;
+                              bottom: 0;
+                              left: 0;
+                              width: 100%;
+                              height: 50%;
+                              background-color: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Градиентный фон */
+                              z-index: -1; /* Помещаем фон под контент */
+                          }
+                      </style>
+
+                      <div class="flex-container" style="justify-content: center;">
+                        <div class="flex-container" style="display: flex; justify-content: center;">
+
+
+                          <div class="containerz adjustable" style="width: 250px; height: 330px; text-align: center; position: relative;" onclick="openUhirov()">
+                              <img src="photo/bs.png" alt="Logo" style="width: 80px; height: auto;">
+                              <h1>PikaciuA</h1>
+                              <p></p>
+                              <div class="half-background"></div> <!-- Добавляем дополнительный блок для создания половинного фона -->
+                          </div>
+
+                          <script>
+                              function openUhirov() {
+                                  window.location.href = 'uhir.html'; // Открывает dang.html при клике на окошко
+                              }
+                          </script>
+
+                          <style>
+                              .half-background {
+                                  position: absolute;
+                                  bottom: 0;
+                                  left: 0;
+                                  width: 100%;
+                                  height: 50%;
+                                  background-color: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Градиентный фон */
+                                  z-index: -1; /* Помещаем фон под контент */
+                              }
+                          </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<!-- d -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+</body>
+</html>

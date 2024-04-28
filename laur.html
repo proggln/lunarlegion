@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Legion</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background: linear-gradient(to right, #191970, #800080); /* Градиент от темно-синего к темно-фиолетовому */
+            color: #fff; /* Цвет текста */
+            padding: 10px; /* Уменьшаем внутренний отступ */
+            text-align: center; /* Выравнивание по центру */
+        }
+
+        .logo img {
+            width: 100px; /* Уменьшаем размер логотипа */
+            height: auto; /* Автоматическое определение высоты */
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav a {
+            color: #fff; /* Цвет текста */
+            text-decoration: none; /* Убираем подчеркивание */
+            margin: 0 5px; /* Уменьшаем внешний отступ между кнопками */
+            padding: 5px 10px; /* Уменьшаем внутренние отступы кнопок */
+            border: 2px solid transparent; /* Прозрачная граница */
+            border-radius: 5px; /* Закругленные углы */
+            transition: all 0.3s ease; /* Плавное изменение при наведении */
+        }
+
+        .nav a.active,
+        .nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Немного прозрачного белого цвета при наведении */
+            border-color: #fff; /* Изменение цвета границы при наведении */
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">
+        <img src="photo/log.png" alt="Logo" style="width: 80px; height: auto;">
+
+
+
+
+    </div>
+    <div class="nav">
+    <a href="index.html">About</a>
+    <a href="team.html">Team</a>
+    <a href="match.html">Matches</a>
+    <a href="cont.html">Contact</a>
+</div>
+
+<!-- Ваш CSS код -->
+
+<style>
+    .nav a.active,
+    .nav a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: #fff;
+    }
+</style>
+
+<!-- JavaScript код -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Получаем текущий URL страницы
+        var currentPage = window.location.href;
+
+        // Получаем все ссылки в навигации
+        var navLinks = document.querySelectorAll('.nav a');
+
+        // Проходимся по каждой ссылке
+        navLinks.forEach(function(link) {
+            // Если текущий URL страницы содержит атрибут href ссылки, то добавляем ей класс active
+            if (currentPage.includes(link.getAttribute('href'))) {
+                link.classList.add('active');
+            }
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+<style>
+       /* Стили для кнопки */
+       .my-button {
+           position: absolute;
+           top: 90px;
+           left: 160px; /* Изменено на 29px (15px + 14px) */
+           background-color: #6a5acd; /* Сине-фиолетовый цвет */
+           color: white;
+           padding: 10px 20px;
+           font-size: 16px;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+           transition: background-color 0.3s;
+       }
+
+
+   </style>
+</head>
+<body>
+
+<!-- HTML код кнопки -->
+
+
+
+
+
+
+
+<button class="styled-button" onclick="window.location.href='team.html'" style="margin-top: 8px; margin-left: -350px;">Return</button>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="containerz" style="width: 850px; height: 460px;">
+    <div class="header2">
+        <b>Player info</b>
+    </div>
+
+    <div class="containerf" style="width: 300px; height: 300px">
+      <img src="photo/bs.png" style="width: 100%; height: 100%; object-fit: cover;" alt="Описание картинки">
+
+
+
+
+
+
+
+
+
+
+      <div style="flex: 1; padding-left: 10px; margin-top: -310px; margin-left: 350px;">
+              <h2 style="font-size: 32px;">Laurén</h2>
+              <p style="word-wrap: break-word; width: 400px;">Bea lover, but instead of honey gives out headshots. Always there for team. Can handle the pressure, often ignores his own health. What wouldn't you do for the team...</p>
+
+
+      </div>
+
+      <div style="display: flex; align-items: center; margin-left: 360px; width: 300px;">
+        <img src="photo/bs.png" style="width: 50px; height: 50px; object-fit: cover; margin-right: 3px; margin-bottom: 12px;" alt="Описание картинки">
+
+        <div>
+            <b>Brawl Stars</b>
+            <p style="word-wrap: break-word; font-size: 15px; margin-top: -1px; margin-left: 2px;">Joined 15 December 2019</p>
+
+
+
+        </div>
+    </div>
+
+</div>
+
+    </div>
+
+
+
+
+
+
+      </div>
+
+
+
+      <div class="containerz" style="width: 850px; height: 1450px;">
+          <div class="header2">
+              <b>Settings</b>
+          </div>
+
+
+            <div class="containerz" style="width: 800px; height: 140px; margin-top: 12px; margin-left: 5px;">
+              <div style="display: flex; align-items: center;">
+    <h1 style="margin-top: -115px; margin-right: 10px;">Device</h1>
+<img src="photo/phn.png" alt="Description of your image" style="width: 43px; height: 43px; object-fit: cover; margin-top: -138px; margin-left: -7px;">
+
+
+<div class="containerz" style="width: 3300px; height: 50px; margin-top: 39px; margin-left: -145px;">
+
+  <img src="photo/redmi.png" alt="Description of your image" style="width: 95px; height: 95px; object-fit: cover; margin-top: -23px; margin-left: -24px;">
+  <p style="margin-top: -68px; margin-left: 65px; font-size: 24px; font-weight: bold;">REDMI NOTE 12 PRO</p>
+
+
+
+  <a href="https://mi-home.lt/collections/redmi-note-12-pro-5g" class="modern-button" style="margin-left: 450px; position: relative; top: -59px;" target="_blank">Check on Xiaomi</a>
+<a href="https://www.amazon.com/redmi-note-12-pro/s?k=redmi+note+12+pro" class="modern-button" style="margin-left: 620px; position: relative; top: -101px;" target="_blank">Check price</a>
+
+
+
+
+
+
+
+<!-- HTML код кнопки --><!-- HTML код кнопки --><!-- HTML код кнопки -->
+
+
+</div>
+</div>
+</div>
+<div class="containerz" style="width: 800px; height: 525px; margin-top: 75px; margin-left: 5px;">
+  <div style="display: flex; align-items: center;">
+<h1 style="margin-top: -505px; margin-right: 10px;">Buttons</h1>
+<img src="photo/butt.png" alt="Description of your image" style="width: 30px; height: 30px; object-fit: cover; margin-top: -525px; margin-left: -1px;">
+
+
+<div class="containerz" style="width: 760px; height: 450px; margin-top: 39px; margin-left: -160px;">
+
+<img src="photo/bss.png" alt="Description of your image" style="width: 780px; height: px; object-fit: cover; margin-top: -11px; margin-left: -9px;">
+
+
+
+
+<div class="containerz" style="width: 800px; height: 415px; margin-top: 100px; margin-left: -37px;">
+  <div style="display: flex; align-items: center;">
+    <h1 style="margin-top: -375px; margin-right: 10px;">Profile<span style="font-size: inherit;">&nbsp;</span></h1>>
+<img src="photo/profile.png" alt="Description of your image" style="width: 45px; height: 45px; object-fit: cover; margin-top: -399px; margin-left: -15px;">
+
+
+<div class="containerz" style="width: 940px; height: 320px; margin-top: 57px; margin-left: -155px;">
+
+
+
+
+
+
+  <img src="photo/bsprof1.png" alt="Description of your image" style="width: 765px; height: px; object-fit: cover; margin-top: -11px; margin-left: -9px;">
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="flex-container" style="justify-content: center;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="font-size: 17px; color: gray; margin-left: 650px; margin-top: 2px;">
+Laurén is official player of the main Lunar Legion Brawl Stars team 2024</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="flex-container" style="justify-content: center;">

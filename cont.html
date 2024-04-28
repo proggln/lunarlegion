@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Legion</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background: linear-gradient(to right, #191970, #800080); /* Градиент от темно-синего к темно-фиолетовому */
+            color: #fff; /* Цвет текста */
+            padding: 10px; /* Уменьшаем внутренний отступ */
+            text-align: center; /* Выравнивание по центру */
+        }
+
+        .logo img {
+            width: 100px; /* Уменьшаем размер логотипа */
+            height: auto; /* Автоматическое определение высоты */
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav a {
+            color: #fff; /* Цвет текста */
+            text-decoration: none; /* Убираем подчеркивание */
+            margin: 0 5px; /* Уменьшаем внешний отступ между кнопками */
+            padding: 5px 10px; /* Уменьшаем внутренние отступы кнопок */
+            border: 2px solid transparent; /* Прозрачная граница */
+            border-radius: 5px; /* Закругленные углы */
+            transition: all 0.3s ease; /* Плавное изменение при наведении */
+        }
+
+        .nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Немного прозрачного белого цвета при наведении */
+            border-color: #fff; /* Изменение цвета границы при наведении */
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Lunar Legion</title>
+      <style>
+          body {
+              margin: 0;
+              padding: 0;
+              font-family: Arial, sans-serif;
+          }
+
+          .header {
+              background: linear-gradient(to right, #191970, #800080); /* Градиент от темно-синего к темно-фиолетовому */
+              color: #fff; /* Цвет текста */
+              padding: 10px; /* Уменьшаем внутренний отступ */
+              text-align: center; /* Выравнивание по центру */
+          }
+
+          .logo img {
+              width: 100px; /* Уменьшаем размер логотипа */
+              height: auto; /* Автоматическое определение высоты */
+          }
+
+          .nav {
+              display: flex;
+              justify-content: center;
+          }
+
+          .nav a {
+              color: #fff; /* Цвет текста */
+              text-decoration: none; /* Убираем подчеркивание */
+              margin: 0 5px; /* Уменьшаем внешний отступ между кнопками */
+              padding: 5px 10px; /* Уменьшаем внутренние отступы кнопок */
+              border: 2px solid transparent; /* Прозрачная граница */
+              border-radius: 5px; /* Закругленные углы */
+              transition: all 0.3s ease; /* Плавное изменение при наведении */
+          }
+
+          .nav a.active,
+          .nav a:hover {
+              background-color: rgba(255, 255, 255, 0.2); /* Немного прозрачного белого цвета при наведении */
+              border-color: #fff; /* Изменение цвета границы при наведении */
+          }
+      </style>
+  </head>
+  <body>
+
+  <div class="header">
+      <div class="logo">
+          <img src="photo/log.png" alt="Logo" style="width: 80px; height: auto;">
+
+
+
+      </div>
+      <div class="nav">
+      <a href="index.html">About</a>
+      <a href="team.html">Team</a>
+      <a href="match.html">Matches</a>
+      <a href="cont.html">Contact</a>
+  </div>
+
+  <!-- Ваш CSS код -->
+
+  <style>
+      .nav a.active,
+      .nav a:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+          border-color: #fff;
+      }
+  </style>
+
+  <!-- JavaScript код -->
+
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          // Получаем текущий URL страницы
+          var currentPage = window.location.href;
+
+          // Получаем все ссылки в навигации
+          var navLinks = document.querySelectorAll('.nav a');
+
+          // Проходимся по каждой ссылке
+          navLinks.forEach(function(link) {
+              // Если текущий URL страницы содержит атрибут href ссылки, то добавляем ей класс active
+              if (currentPage.includes(link.getAttribute('href'))) {
+                  link.classList.add('active');
+              }
+          });
+      });
+  </script>
+
+
+  </div>
+
+  <div class="container">
+      <div class="header2">
+          <b>Contact us</b>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <div class="container">
+  <form action="https://formspree.io/f/mqkrgebk" method="POST">
+
+      <label for="fname">Your name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Name..">
+
+      <label for="lname">Email</label>
+      <input type="text" id="lname" name="email" placeholder="example@mail.com">
+
+      <label for="country">Section</label>
+      <select id="country" name="Section">
+        <option value="Sponsorship and partnership">Sponsorship and partnership</option>
+        <option value="Tournaments and leagues">Tournaments and leagues</option>
+        <option value="Shop and merchandise">Shop and merchandise</option>
+        <option value="Players">Players</option>
+          <option value="Other">Other</option>
+      </select>
+
+      <label for="subject">Messege</label>
+      <textarea id="subject" name="Messege" placeholder="Hi Lunar Legion, ..." style="height:200px"></textarea>
+      <input type="submit" value="Submit">
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+  <div class="container">
+      <div class="header2">
+          <b>The main thing is patience!</b>
+      </div>
+      <div class="main-section">
+
+
+
+
+
+
+        <p class="achievement" style="font-size: 32px;">
+          <b style="font-size: 30px;">We are always happy to help you!</b>
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  </body>
+  </html>
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

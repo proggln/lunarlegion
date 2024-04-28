@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Legion</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background: linear-gradient(to right, #191970, #800080); /* Градиент от темно-синего к темно-фиолетовому */
+            color: #fff; /* Цвет текста */
+            padding: 10px; /* Уменьшаем внутренний отступ */
+            text-align: center; /* Выравнивание по центру */
+        }
+
+        .logo img {
+            width: 100px; /* Уменьшаем размер логотипа */
+            height: auto; /* Автоматическое определение высоты */
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav a {
+            color: #fff; /* Цвет текста */
+            text-decoration: none; /* Убираем подчеркивание */
+            margin: 0 5px; /* Уменьшаем внешний отступ между кнопками */
+            padding: 5px 10px; /* Уменьшаем внутренние отступы кнопок */
+            border: 2px solid transparent; /* Прозрачная граница */
+            border-radius: 5px; /* Закругленные углы */
+            transition: all 0.3s ease; /* Плавное изменение при наведении */
+        }
+
+        .nav a.active,
+        .nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Немного прозрачного белого цвета при наведении */
+            border-color: #fff; /* Изменение цвета границы при наведении */
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">
+        <img src="photo/log.png" alt="Logo" style="width: 80px; height: auto;">
+
+
+
+
+    </div>
+    <div class="nav">
+    <a href="index.html">About</a>
+    <a href="team.html">Team</a>
+    <a href="match.html">Matches</a>
+    <a href="cont.html">Contact</a>
+</div>
+
+<!-- Ваш CSS код -->
+
+<style>
+    .nav a.active,
+    .nav a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: #fff;
+    }
+</style>
+
+<!-- JavaScript код -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Получаем текущий URL страницы
+        var currentPage = window.location.href;
+
+        // Получаем все ссылки в навигации
+        var navLinks = document.querySelectorAll('.nav a');
+
+        // Проходимся по каждой ссылке
+        navLinks.forEach(function(link) {
+            // Если текущий URL страницы содержит атрибут href ссылки, то добавляем ей класс active
+            if (currentPage.includes(link.getAttribute('href'))) {
+                link.classList.add('active');
+            }
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+<style>
+       /* Стили для кнопки */
+       .my-button {
+           position: absolute;
+           top: 90px;
+           left: 160px; /* Изменено на 29px (15px + 14px) */
+           background-color: #6a5acd; /* Сине-фиолетовый цвет */
+           color: white;
+           padding: 10px 20px;
+           font-size: 16px;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+           transition: background-color 0.3s;
+       }
+
+
+   </style>
+</head>
+<body>
+
+<!-- HTML код кнопки -->
+
+
+
+
+
+
+
+<button class="styled-button" onclick="window.location.href='team.html'" style="margin-top: 8px; margin-left: -350px;">Return</button>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="containerz" style="width: 850px; height: 460px;">
+    <div class="header2">
+        <b>Player info</b>
+    </div>
+
+    <div class="containerf" style="width: 300px; height: 300px">
+      <img src="photo/cs2.png" style="width: 100%; height: 100%; object-fit: cover;" alt="Описание картинки">
+
+
+
+
+
+
+
+
+
+
+      <div style="flex: 1; padding-left: 10px; margin-top: -310px; margin-left: 350px;">
+              <h2 style="font-size: 32px;">Nyd1x</h2>
+              <p style="word-wrap: break-word; width: 400px;">Lunar Legion is not his first team. Plays calmly, but does not miss an extra opportunity to peek.</p>
+
+
+      </div>
+
+      <div style="display: flex; align-items: center; margin-left: 360px; width: 300px;">
+        <img src="photo/cs2.png" style="width: 50px; height: 50px; object-fit: cover; margin-right: 3px; margin-bottom: 12px;" alt="Описание картинки">
+
+        <div>
+            <b>Counter-Strike 2</b>
+            <p style="word-wrap: break-word; font-size: 15px; margin-top: -1px; margin-left: 2px;">Joined 9 September 2020</p>
+
+
+
+        </div>
+    </div>
+
+</div>
+
+    </div>
+
+
+
+
+
+
+      </div>
+
+
+
+      <div class="containerz" style="width: 850px; height: 1920px;">
+          <div class="header2">
+              <b>Settings</b>
+          </div>
+
+
+            <div class="containerz" style="width: 800px; height: 240px; margin-top: 12px; margin-left: 5px;">
+              <div style="display: flex; align-items: center;">
+    <h1 style="margin-top: -115px; margin-right: 10px;">Mouse</h1>
+<img src="photo/mouse.png" alt="Description of your image" style="width: 43px; height: 43px; object-fit: cover; margin-top: -138px; margin-left: -7px;">
+
+
+<div class="containerz" style="width: 3300px; height: 50px; margin-top: 39px; margin-left: -145px;">
+
+  <img src="photo/dav2pro.png" alt="Description of your image" style="width: 95px; height: 95px; object-fit: cover; margin-top: -23px; margin-left: -24px;">
+  <p style="margin-top: -68px; margin-left: 65px; font-size: 24px; font-weight: bold;">RAZER DEATHADDER V2 PRO</p>
+
+
+
+  <a href="https://www.razer.com/sg-en/gaming-mice/razer-deathadder-v2-pro" class="modern-button" style="margin-left: 455px; position: relative; top: -59px;" target="_blank">Check on Razer</a>
+<a href="https://www.amazon.com/s?k=razer+deathadder+v2+pro&crid=1T84RL2CMPTDU&sprefix=razer+deathadder+v2+pro%2Caps%2C174&ref=nb_sb_noss_1" class="modern-button" style="margin-left: 620px; position: relative; top: -101px;" target="_blank">Check price</a>
+
+
+
+
+
+  <div style="display: flex; justify-content: center; margin-top: -44px;">
+      <table class="dpi-table">
+          <tr>
+              <th>DPI</th>
+          </tr>
+          <tr>
+              <td>800</td>
+          </tr>
+      </table>
+      <table class="dpi-table" style="margin-left: 20px;">
+          <tr>
+              <th>Sensitivity</th>
+          </tr>
+          <tr>
+              <td>3.4</td>
+          </tr>
+      </table>
+      <table class="dpi-table" style="margin-left: 20px;">
+          <tr>
+              <th>Hz</th>
+          </tr>
+          <tr>
+              <td>1000</td>
+          </tr>
+      </table>
+  </div>
+
+<!-- HTML код кнопки --><!-- HTML код кнопки --><!-- HTML код кнопки -->
+
+
+</div>
+</div>
+</div>
+<div class="containerz" style="width: 800px; height: 470px; margin-top: 75px; margin-left: 5px;">
+  <div style="display: flex; align-items: center;">
+<h1 style="margin-top: -115px; margin-right: 10px;">Сrosshair</h1>
+<img src="photo/cros.png" alt="Description of your image" style="width: 30px; height: 30px; object-fit: cover; margin-top: -138px; margin-left: -1px;">
+
+
+<div class="containerz" style="width: 760px; height: 50px; margin-top: 39px; margin-left: -185px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="display: flex; justify-content: center; margin-top: 92px;">
+    <table class="dpi-table">
+        <tr>
+            <th>Style</th>
+        </tr>
+        <tr>
+            <td>Classic Static</td>
+        </tr>
+    </table>
+    <table class="dpi-table" style="margin-left: 20px;">
+        <tr>
+            <th>Follow Recoil</th>
+        </tr>
+        <tr>
+            <td>No</td>
+        </tr>
+    </table>
+    <table class="dpi-table" style="margin-left: 20px;">
+        <tr>
+            <th>Dot</th>
+        </tr>
+        <tr>
+            <td>No</td>
+        </tr>
+    </table>
+</div>
+
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+    <table class="dpi-table">
+        <tr>
+            <th>Length</th>
+        </tr>
+        <tr>
+            <td>1.3</td>
+        </tr>
+    </table>
+    <table class="dpi-table" style="margin-left: 20px;">
+        <tr>
+            <th>Outline</th>
+        </tr>
+        <tr>
+            <td>No</td>
+        </tr>
+    </table>
+    <table class="dpi-table" style="margin-left: 20px;">
+        <tr>
+            <th>T Style</th>
+        </tr>
+        <tr>
+            <td>No</td>
+        </tr>
+    </table>
+</div>
+
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+    <table class="dpi-table">
+        <tr>
+            <th>Red</th>
+        </tr>
+        <tr>
+            <td>0</td>
+        </tr>
+    </table>
+    <table class="dpi-table" style="margin-left: 20px;">
+        <tr>
+            <th>Green</th>
+        </tr>
+        <tr>
+            <td>255</td>
+        </tr>
+    </table>
+    <table class="dpi-table" style="margin-left: 20px;">
+        <tr>
+            <th>Blue</th>
+        </tr>
+        <tr>
+            <td>255</td>
+        </tr>
+    </table>
+</div>
+
+<button onclick="copyText()" class="modern-button" style="margin-left: 705px; margin-top: -18px;">
+    <img src="photo/copy.png" alt="Copy Icon" style="width: 20px; height: 20px; margin-right: 5px;">
+    Copy
+</button>
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    function copyText() {
+      const textToCopy = "CSGO-kynwa-9cNjo-NOXu2-aS6L3-9YcNE"; // Текст для копирования
+      // Создаем временный элемент textarea для копирования текста
+      const textarea = document.createElement('textarea');
+      textarea.value = textToCopy;
+      // Добавляем textarea на страницу
+      document.body.appendChild(textarea);
+      // Выделяем текст в textarea
+      textarea.select();
+      textarea.setSelectionRange(0, 99999); // Для поддержки мобильных устройств
+      // Копируем выделенный текст в буфер обмена
+      document.execCommand('copy');
+      // Удаляем временный элемент textarea
+      document.body.removeChild(textarea);
+      // Оповещение пользователя о копировании
+      alert('Copied: ' + textToCopy);
+    }
+  </script>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="containerz" style="width: 800px; height: 300px; margin-top: -940px; margin-left: 530px;">
+  <div style="display: flex; align-items: center;">
+    <h1 style="margin-top: -240px; margin-right: 10px;">Video<span style="font-size: inherit;">&nbsp;</span>Settings</h1>>
+<img src="photo/eye.png" alt="Description of your image" style="width: 30px; height: 30px; object-fit: cover; margin-top: -260px; margin-left: -5px;">
+
+
+<div class="containerz" style="width: 950px; height: 175px; margin-top: 57px; margin-left: -265px;">
+
+
+
+
+  <div style="display: flex; justify-content: center; margin-top: 2px;">
+      <table class="dpi-table">
+          <tr>
+              <th>Resolution</th>
+          </tr>
+          <tr>
+              <td>1400x1050</td>
+          </tr>
+      </table>
+      <table class="dpi-table" style="margin-left: 20px;">
+          <tr>
+              <th>Aspect Ratio</th>
+          </tr>
+          <tr>
+              <td>4:3</td>
+          </tr>
+      </table>
+      <table class="dpi-table" style="margin-left: 20px;">
+          <tr>
+              <th>Refresh Rate</th>
+          </tr>
+          <tr>
+              <td>60 HZ</td>
+          </tr>
+      </table>
+  </div>
+
+  <div style="display: flex; justify-content: center; margin-top: 20px;">
+      <table class="dpi-table">
+          <tr>
+              <th>Brightness</th>
+          </tr>
+          <tr>
+              <td>110%</td>
+          </tr>
+      </table>
+      <table class="dpi-table" style="margin-left: 20px;">
+          <tr>
+              <th>Display Mode</th>
+          </tr>
+          <tr>
+              <td>Fullscreen</td>
+          </tr>
+      </table>
+
+  </div>
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="containerz" style="width: 800px; height: 300px; margin-top: 100px; margin-left: -19px;">
+  <div style="display: flex; align-items: center;">
+    <h1 style="margin-top: -240px; margin-right: 10px;">Radar<span style="font-size: inherit;">&nbsp;</span></h1>>
+<img src="photo/radar.png" alt="Description of your image" style="width: 45px; height: 45px; object-fit: cover; margin-top: -260px; margin-left: -15px;">
+
+
+<div class="containerz" style="width: 950px; height: 175px; margin-top: 57px; margin-left: -145px;">
+
+
+
+  <div style="display: flex; justify-content: center; margin-top: 2px;">
+      <table class="dpi-table">
+          <tr>
+              <th>Radar Centers The Player</th>
+          </tr>
+          <tr>
+              <td>Yes</td>
+          </tr>
+      </table>
+      <table class="dpi-table" style="margin-left: 20px;">
+          <tr>
+              <th>Radar is Rotating</th>
+          </tr>
+          <tr>
+              <td>Yes</td>
+          </tr>
+      </table>
+      <table class="dpi-table" style="margin-left: 20px;">
+          <tr>
+              <th>Toggle Shape With Scoreboard</th>
+          </tr>
+          <tr>
+              <td>Yes</td>
+          </tr>
+      </table>
+  </div>
+
+  <div style="display: flex; justify-content: center; margin-top: 20px;">
+      <table class="dpi-table">
+          <tr>
+              <th>Radar Hud Size</th>
+          </tr>
+          <tr>
+              <td>1</td>
+          </tr>
+      </table>
+      <table class="dpi-table" style="margin-left: 20px;">
+          <tr>
+              <th>Radar Map Zoom</th>
+          </tr>
+          <tr>
+              <td>0.4</td>
+          </tr>
+      </table>
+
+  </div>
+</div>
+</div>
+</div>
+
+<p style="font-size: 17px; color: gray; margin-left: 98px; margin-top: 54px;">Nyd1x is official player of the main Lunar Legion Counter Strike 2 team 2024</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="flex-container" style="justify-content: center;">

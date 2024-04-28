@@ -1,0 +1,648 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для разделов */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Стили для игроков */
+.player {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.player:last-child {
+    border-bottom: none;
+}
+
+.player h3 {
+    margin-top: 0;
+}
+
+/* Стили для устройств */
+.devices {
+    margin-top: 10px;
+}
+
+.devices ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.devices ul li {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+.achievement-image {
+    width: 50px; /* Задаем фиксированную ширину */
+    height: auto; /* Позволяет сохранить соотношение сторон */
+}
+
+.achievement-image {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px; /* добавим небольшой отступ справа от текста */
+}
+
+.calendar-icon {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px; /* добавим небольшой отступ справа от текста */
+}
+
+
+/* styles.css */
+
+/* Стили для контейнера окна */
+.window-container {
+    background-color: #f8f9fa; /* Цвет фона */
+    border: 1px solid #ced4da; /* Граница */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+    padding: 20px; /* Внутренний отступ */
+    width: 300px; /* Ширина окна */
+    margin: 50px auto; /* Центрирование по горизонтали */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+/* Стили для текста внутри окна */
+.window-text {
+    color: #333; /* Цвет текста */
+    font-size: 18px; /* Размер шрифта */
+    line-height: 1.5; /* Межстрочное расстояние */
+    margin-bottom: 20px; /* Нижний отступ */
+}
+
+/* Стили для ссылок */
+.window-link {
+    color: #007bff; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.window-link:hover {
+    text-decoration: underline; /* Подчеркиваем ссылку при наведении */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* styles.css */
+
+/* Стили для шапки */
+/* styles.css */
+
+/* Стили для шапки */
+.header2 {
+    background: linear-gradient(to right, #191970, #800080); /* Переливание цветов */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px; /* Закругление углов */
+}
+
+
+
+
+
+
+
+
+
+
+.nav a.active,
+.nav a:focus {
+    background-color: rgba(255, 255, 255, 0.2); /* Немного прозрачного белого цвета при нажатии */
+    border-color: #fff; /* Изменение цвета границы при нажатии */
+}
+
+
+
+
+
+.header2 {
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.centered-text {
+    margin: 0; /* Убираем внешние отступы */
+}
+
+
+
+
+.container {
+    width: 80%; /* Процент ширины основной секции */
+    margin: 0.5 auto; /* Центрирование основной секции */
+    border-top-left-radius: 10px; /* Закругление верхнего левого угла */
+    border-top-right-radius: 10px; /* Закругление верхнего правого угла */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #ffcc00; /* акцентный цвет для верхней границы */
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2); /* тень для эффекта возвышения */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    background-color: #F5F5F5; /* Замените #ffffff на желаемый цвет */
+}
+
+p {
+    font-size: 25px; /* Замените 18px на желаемый размер шрифта */
+}
+
+
+
+b {
+    font-size: 25px; /* Замените 18px на желаемый размер шрифта */
+}
+
+
+
+
+.img-move-right {
+  margin-left: 130px; /* На сколько пикселей сдвинуть вправо */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-container {
+    width: 80%; /* Измените на нужную вам ширину */
+    margin: 0 auto; /* Центрирование контейнера */
+}
+
+.custom-main-section {
+    width: 50%; /* Измените на нужную вам ширину */
+    height: 200px; /* Измените на нужную вам высоту */
+    background-color: #f0f0f0; /* Цвет фона */
+    border: 1px solid #ccc; /* Граница (по желанию) */
+}
+
+
+
+
+
+.containernew {
+    max-width: 400px; /* Максимальная ширина */
+    width: 32%; /* Начальная ширина */
+    height: 300px; /* Начальная высота */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F5F5F5; /* Цвет фона */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Плавная анимация изменения размеров */
+}
+
+.containernew.adjustable:hover {
+    transform: scale(1.1); /* Увеличение размера на 10% при наведении */
+}
+
+
+
+
+
+
+
+
+
+
+.flex-container {
+    display: flex; /* Расположение дочерних элементов в одну линию */
+    justify-content: space-between; /* Распределение пространства между дочерними элементами */
+}
+
+
+
+
+
+
+
+
+
+.containerz {
+    max-width: 400px; /* Максимальная ширина */
+    width: 100px; /* Новая ширина в пикселях */
+    height: 350px; /* Начальная высота */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F5F5F5; /* Цвет фона */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Плавная анимация изменения размеров */
+}
+
+.containerz.adjustable:hover {
+    transform: scale(1.1); /* Увеличение размера на 10% при наведении */
+}
+
+
+
+
+.containerz {
+    width: 65%; /* Процент ширины основной секции */
+    margin: 0.5 auto; /* Центрирование основной секции */
+    border-top-left-radius: 10px; /* Закругление верхнего левого угла */
+    border-top-right-radius: 10px; /* Закругление верхнего правого угла */
+}
+
+
+
+
+
+.containerz.adjustable {
+    width: 270px; /* Ширина контейнера */
+    height: 340px; /* Высота контейнера */
+    display: inline-block; /* Размещаем контейнеры в строку */
+    margin-right: 20px; /* Отступ справа между контейнерами */
+}
+
+
+
+.containerz {
+    max-width: none; /* Убираем максимальную ширину */
+}
+
+
+
+
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fade-in 0.5s ease-out;
+}
+
+
+
+
+
+/*ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
+.styled-button {
+    background-color: transparent; /* Прозрачный цвет фона */
+    border: 2px solid transparent; /* Прозрачная граница */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.styled-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Немного прозрачного белого цвета при наведении */
+    border-color: #fff; /* Изменение цвета границы при наведении */
+}
+
+
+.styled-button {
+    background-color: transparent; /* Прозрачный цвет фона */
+    border: 2px solid transparent; /* Прозрачная граница */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute; /* Добавляем позиционирование */
+    top: 80px; /* Перемещаем кнопку вверх на 61px */
+    left: 55
+    0px; /* Перемещаем кнопку влево на 13px */
+}
+
+
+
+
+
+
+
+
+
+
+
+.containerf {
+    max-width: 400px; /* Максимальная ширина */
+    width: 100px; /* Новая ширина в пикселях */
+    height: 350px; /* Начальная высота */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F5F5F5; /* Цвет фона */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Плавная анимация изменения размеров */
+}
+
+.containerf.adjustable:hover {
+    transform: scale(1.1); /* Увеличение размера на 10% при наведении */
+}
+
+
+
+
+.containerf {
+    width: 65%; /* Процент ширины основной секции */
+    margin: 0.5 auto; /* Центрирование основной секции */
+    border-top-left-radius: 10px; /* Закругление верхнего левого угла */
+    border-top-right-radius: 10px; /* Закругление верхнего правого угла */
+}
+
+
+
+
+
+.containerf.adjustable {
+    width: 270px; /* Ширина контейнера */
+    height: 340px; /* Высота контейнера */
+    display: inline-block; /* Размещаем контейнеры в строку */
+    margin-right: 20px; /* Отступ справа между контейнерами */
+}
+
+
+
+.containerf {
+    max-width: none; /* Убираем максимальную ширину */
+}
+
+.containerf {
+    max-width: 400px; /* Максимальная ширина */
+    width: 100px; /* Новая ширина в пикселях */
+    height: 350px; /* Начальная высота */
+    margin: 20px auto;
+    margin-left: 1px; /* Перемещение контейнера влево на 14px */
+    padding: 20px;
+    background-color: #F5F5F5; /* Цвет фона */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Плавная анимация изменения размеров */
+}
+
+
+
+
+
+
+
+
+
+
+
+.modern-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; /* Изменено на прозрачный цвет */
+    color: #4CAF50; /* Добавлен серый цвет для текста */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #4CAF50; /* Добавлена серая обводка */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Добавлен переход для изменения цвета текста */
+}
+
+.modern-button:hover {
+    background-color: #45a049;
+    color: white; /* Изменен цвет текста при наведении */
+}
+/*ввввввввввввввв/*
+/* Стили для таблицы */
+/* Стили для таблицы */
+/* Стили для таблицы */
+.dpi-table {
+  border-collapse: collapse;
+  width: 200px;
+}
+
+/* Стили для заголовка ячейки */
+.dpi-table th {
+  color: black; /* Цвет текста */
+  padding: 10px;
+  text-align: center;
+  position: relative; /* Позволяет позиционировать псевдоэлементы */
+}
+
+/* Стили для псевдоэлемента над заголовком ячейки */
+.dpi-table th::before {
+  content: ""; /* Добавляем пустое содержимое */
+  position: absolute; /* Абсолютное позиционирование */
+  top: -2px; /* Смещаем вверх на 2 пикселя */
+  left: 0; /* Размещаем в самом начале */
+  width: 100%; /* Ширина равна ширине ячейки */
+  height: 2px; /* Высота линии */
+  background-color: #ddd; /* Цвет серой линии */
+}
+
+/* Стили для ячейки с данными */
+.dpi-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Стили для четных строк */
+.dpi-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.additional-tables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px; /* Регулируйте отступ сверху по вашему усмотрению */
+}
+
+
+
+/* Стили для кнопки */
+.copy-button {
+  padding: 10px 20px; /* Поля внутри кнопки */
+  font-size: 16px; /* Размер шрифта */
+  background-color: #4CAF50; /* Цвет фона */
+  color: white; /* Цвет текста */
+  border: none; /* Убираем границу */
+  border-radius: 5px; /* Скругляем углы */
+  cursor: pointer; /* Указатель при наведении */
+  transition: background-color 0.3s; /* Плавное изменение цвета при наведении */
+}
+
+/* Стили для кнопки при наведении */
+.copy-button:hover {
+  background-color: #45a049; /* Цвет фона при наведении */
+}
+
+
+/* Стили для кнопки */
+.copy-button {
+  padding: 10px 20px; /* Поля внутри кнопки */
+  font-size: 16px; /* Размер шрифта */
+  background-color: transparent; /* Прозрачный фон */
+  color: #4CAF50; /* Цвет текста */
+  border: 2px solid #4CAF50; /* Обводка */
+  border-radius: 5px; /* Скругляем углы */
+  cursor: pointer; /* Указатель при наведении */
+  transition: color 0.3s, border-color 0.3s; /* Плавное изменение цвета при наведении */
+}
+
+/* Стили для кнопки при наведении */
+.copy-button:hover {
+  color: #45a049; /* Цвет текста при наведении */
+  border-color: #45a049; /* Цвет обводки при наведении */
+}
+
+
+
+
+
+
+.modern-button {
+    padding: 10px 20px;
+    background-color: transparent; /* Удаление внутреннего цвета */
+    color: #000; /* Цвет текста */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid #000; /* Обводка кнопки */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modern-button:hover {
+    background-color: #000; /* Изменение фона при наведении */
+    color: #fff; /* Изменение цвета текста при наведении */
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Legion</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background: linear-gradient(to right, #191970, #800080); /* Градиент от темно-синего к темно-фиолетовому */
+            color: #fff; /* Цвет текста */
+            padding: 10px; /* Уменьшаем внутренний отступ */
+            text-align: center; /* Выравнивание по центру */
+        }
+
+        .logo img {
+            width: 100px; /* Уменьшаем размер логотипа */
+            height: auto; /* Автоматическое определение высоты */
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav a {
+            color: #fff; /* Цвет текста */
+            text-decoration: none; /* Убираем подчеркивание */
+            margin: 0 5px; /* Уменьшаем внешний отступ между кнопками */
+            padding: 5px 10px; /* Уменьшаем внутренние отступы кнопок */
+            border: 2px solid transparent; /* Прозрачная граница */
+            border-radius: 5px; /* Закругленные углы */
+            transition: all 0.3s ease; /* Плавное изменение при наведении */
+        }
+
+        .nav a.active,
+        .nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Немного прозрачного белого цвета при наведении */
+            border-color: #fff; /* Изменение цвета границы при наведении */
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">
+        <img src="photo/log.png" alt="Logo" style="width: 80px; height: auto;">
+    </div>
+
+
+
+
+    <div class="nav">
+    <a href="index.html">About</a>
+    <a href="team.html">Team</a>
+    <a href="match.html">Matches</a>
+    <a href="cont.html">Contact</a>
+</div>
+
+<!-- Ваш CSS код -->
+
+<style>
+    .nav a.active,
+    .nav a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: #fff;
+    }
+</style>
+
+<!-- JavaScript код -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Получаем текущий URL страницы
+        var currentPage = window.location.href;
+
+        // Получаем все ссылки в навигации
+        var navLinks = document.querySelectorAll('.nav a');
+
+        // Проходимся по каждой ссылке
+        navLinks.forEach(function(link) {
+            // Если текущий URL страницы содержит атрибут href ссылки, то добавляем ей класс active
+            if (currentPage.includes(link.getAttribute('href'))) {
+                link.classList.add('active');
+            }
+        });
+    });
+</script>
+
+
+</div>
+
+<div class="containerz" style="width: 900px; height: 760px;">
+    <div class="header2">
+        <b>Match history</b>
+    </div>
+     <!-- Добавлен атрибут align -->
+      <div class="flex-container" style="justify-content: center;">
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container" style="border-radius: 10px; height: 60px;">
+
+
+          <img src="photo/cs2.png" style="width: 60px; height: 60px; object-fit: cover; margin-right: 3px; margin-bottom: 23px;" alt="Описание первого изображения">
+          <img src="photo/prologo.png" style="width: 60px; height: 60px; object-fit: cover; float: right; margin-right: 570px; margin-bottom: 23px;" alt="Описание второго изображения">
+          <b style="position: relative; top: -72px; margin-left: 169px;">Lunar Legion</b>
+          <b style="position: relative; top: -72px; margin-left: 25px;">
+        <span style="text-decoration: underline green; font-size: 27px;">2</span>:1
+    </b>
+
+  <b style="position: relative; top: -72px; margin-left: 25px;">Pidroxity</b>
+
+  <img src="photo/pid.png" style="width: 60px; height: 60px; object-fit: cover; float: right; margin-right: 100px; margin-bottom: 0; margin-top: -90px;" alt="Описание второго изображения">
+
+</div>
+</div>
+
+  <div class="container" style="border-radius: 10px; height: 60px;">
+
+    <img src="photo/cs2.png" style="width: 60px; height: 60px; object-fit: cover; margin-right: 3px; margin-bottom: 23px;" alt="Описание первого изображения">
+    <img src="photo/prologo.png" style="width: 60px; height: 60px; object-fit: cover; float: right; margin-right: 570px; margin-bottom: 23px;" alt="Описание второго изображения">
+    <b style="position: relative; top: -72px; margin-left: 169px;">Lunar Legion</b>
+    <b style="position: relative; top: -72px; margin-left: 25px;">
+  <span style="text-decoration: underline green; font-size: 27px;">2</span>:0
+</b>
+
+<b style="position: relative; top: -72px; margin-left: 25px;">Leconity</b>
+
+<img src="photo/len.png" style="width: 65px; height: 65px; object-fit: cover; float: right; margin-right: 100px; margin-bottom: 0; margin-top: -90px;" alt="Описание второго изображения">
+
+
+</div>
+
+
+
+<div class="container" style="border-radius: 10px; height: 60px;">
+
+  <img src="photo/bs.png" style="width: 60px; height: 60px; object-fit: cover; margin-right: 3px; margin-bottom: 23px;" alt="Описание первого изображения">
+  <img src="photo/prologo.png" style="width: 60px; height: 60px; object-fit: cover; float: right; margin-right: 570px; margin-bottom: 23px;" alt="Описание второго изображения">
+  <b style="position: relative; top: -72px; margin-left: 169px;">Lunar Legion</b>
+  <b style="position: relative; top: -72px; margin-left: 25px;">
+<span style="text-decoration: underline green; font-size: 27px;">2</span>:1
+</b>
+
+<b style="position: relative; top: -72px; margin-left: 25px;">PickZ</b>
+
+<img src="photo/pickz.png" style="width: 60px; height: 60px; object-fit: cover; float: right; margin-right: 100px; margin-bottom: 0; margin-top: -90px;" alt="Описание второго изображения">
+
+
+</div>
+
+
+
+<div class="container" style="border-radius: 10px; height: 60px;">
+
+  <img src="photo/cs2.png" style="width: 60px; height: 60px; object-fit: cover; margin-right: 3px; margin-bottom: 23px;" alt="Описание первого изображения">
+  <img src="photo/prologo.png" style="width: 60px; height: 60px; object-fit: cover; float: right; margin-right: 570px; margin-bottom: 23px;" alt="Описание второго изображения">
+  <b style="position: relative; top: -72px; margin-left: 169px;">Lunar Legion</b>
+  <b style="position: relative; top: -72px; margin-left: 25px;">
+  <span style="font-size: 27px;">1</span>:<span style="text-decoration: underline green; font-size: 27px;">2</span>
+</b>
+
+
+<b style="position: relative; top: -72px; margin-left: 25px;">Flexony</b>
+
+<img src="photo/flex.png" style="width: 70px; height: 70px; object-fit: contain; float: right; margin-right: 100px; margin-bottom: 0; margin-top: -90px;" alt="Описание второго изображения">
+
+
+
+</div>
+
+<div class="container" style="border-radius: 10px; height: 60px;">
+
+  <img src="photo/bs.png" style="width: 60px; height: 60px; object-fit: cover; margin-right: 3px; margin-bottom: 23px;" alt="Описание первого изображения">
+  <img src="photo/prologo.png" style="width: 60px; height: 60px; object-fit: cover; float: right; margin-right: 570px; margin-bottom: 23px;" alt="Описание второго изображения">
+  <b style="position: relative; top: -72px; margin-left: 169px;">Lunar Legion</b>
+  <b style="position: relative; top: -72px; margin-left: 25px;">
+  <span style="font-size: 26px;">1</span>:<span style="text-decoration: underline green; font-size: 27px;">2</span>
+</b>
+
+
+<b style="position: relative; top: -72px; margin-left: 25px;">Vitex</b>
+
+<img src="photo/vitex.png" style="width: 60px; height: 60px; object-fit: cover; float: right; margin-right: 100px; margin-bottom: 0; margin-top: -90px;" alt="Описание второго изображения">
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="main-section">
+</section>
+</div>
+</div>
+</div>
+</body>
+</html>
